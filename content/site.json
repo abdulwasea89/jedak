@@ -1,0 +1,130 @@
+{
+  "name": "Abdul Wasea",
+  "role": "Software engineer · Independent researcher · Founder of Zhilo Labs",
+  "hero_title": "I build agent systems, developer tools, and AI-native software.",
+  "location": "Islamabad, Pakistan",
+  "timezone": "Asia/Karachi",
+  "site_url": "https://abdulwasea89.github.io/jedak",
+  "intro": "My work sits between product engineering and systems thinking: reliable AI agents, long-horizon coding workflows, developer infrastructure, and full-stack products that people can actually use.",
+  "bio": "I’m the founder of Zhilo Labs. I build products like Zcron and Lexsus, contribute to open source, and publish research on persistent memory, verification, and software reliability in long-running agents.",
+  "email": "abdulwasea5678@gmail.com",
+  "github": "https://github.com/abdulwasea89",
+  "linkedin": "https://www.linkedin.com/in/abdul-wasea-964757305/",
+  "x": "https://x.com/abdulwasea89",
+  "repository": "https://github.com/abdulwasea89/jedak",
+  "projects": [
+    {
+      "name": "Verix",
+      "category": "Developer infrastructure",
+      "status": "Active",
+      "description": "A verification and reliability layer for AI-assisted software engineering workflows, focused on execution safety, change awareness, and trustworthy agent behavior.",
+      "url": "https://github.com/abdulwasea89/Verix",
+      "stack": "Verification · Agent reliability · Developer systems"
+    },
+    {
+      "name": "Lexsus",
+      "category": "Developer tools",
+      "status": "Active",
+      "description": "A local-first bridge that connects web AI coding assistants to real project files, shells, and MCP-based tooling, while preserving context across sessions.",
+      "url": "https://github.com/abdulwasea89/lexsus",
+      "stack": "MCP · Local-first infrastructure · Context handoffs"
+    },
+    {
+      "name": "Zcron",
+      "category": "AI-native SaaS",
+      "status": "Building",
+      "description": "A gym operations platform for memberships, billing, attendance, staff workflows, and retention automation, designed for real operator workflows rather than generic dashboards.",
+      "url": "https://zcron.online/",
+      "repo": "https://github.com/abdulwasea89/zcron",
+      "stack": "Next.js · FastAPI · PostgreSQL · React Native"
+    },
+    {
+      "name": "traj-claude",
+      "category": "Observability",
+      "status": "Maintained",
+      "description": "A lightweight observability toolkit for Claude Code usage: status line metrics, local transcript inspection, event timelines, and cost visibility.",
+      "url": "https://github.com/abdulwasea89/traj-claude",
+      "stack": "Python · CLI tooling · Developer observability"
+    }
+  ],
+  "contributions": [
+    {
+      "name": "REA — Reverse Engineer Anything",
+      "url": "https://github.com/morluto/rea",
+      "description": "Contributed safeguards around concurrent configuration edits, canonical path handling, safe publication, and conflict detection in a complex reverse-engineering toolchain.",
+      "prs": [
+        {"number": "#4855", "url": "https://github.com/morluto/rea/pull/4855", "status": "Merged"},
+        {"number": "#7125", "url": "https://github.com/morluto/rea/pull/7125", "status": "Open"}
+      ]
+    },
+    {
+      "name": "AI Job Search",
+      "url": "https://github.com/ai-job-search-dev/ai-job-search",
+      "description": "Worked on reliability improvements across scraping, robots.txt enforcement, upstream failure reporting, retrieval guidance, and ranking behavior.",
+      "prs": [
+        {"number": "#710", "url": "https://github.com/ai-job-search-dev/ai-job-search/pull/710", "status": "Merged"},
+        {"number": "#680", "url": "https://github.com/ai-job-search-dev/ai-job-search/pull/680", "status": "Merged"},
+        {"number": "#681", "url": "https://github.com/ai-job-search-dev/ai-job-search/pull/681", "status": "Merged"},
+        {"number": "#638", "url": "https://github.com/ai-job-search-dev/ai-job-search/pull/638", "status": "Merged"}
+      ]
+    }
+  ],
+  "research": [
+    {
+      "slug": "causally-sound-memory-invalidation",
+      "title": "Causally Sound Memory Invalidation for Long-Horizon Software Engineering Agents",
+      "description": "A framework for detecting and invalidating stale assumptions inside persistent agent memory using causal structure, provenance, and targeted verification.",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7644118",
+      "repo_url": "https://github.com/abdulwasea89/research_papers",
+      "year": "2026",
+      "tag": "Agent systems",
+      "state": "Paper",
+      "abstract": "Long-horizon software engineering agents accumulate memory across many actions, but those memories are only useful while their assumptions remain valid. This work proposes a causally grounded invalidation model that treats agent memory as a network of claims supported by observations, tools, and derivations.\n\nThe framework, CAVI, tracks provenance and dependency structure so that when part of the environment changes, the agent can invalidate only the affected assumptions instead of discarding all memory. This reduces both over-forgetting and dangerous over-trust.",
+      "highlights": [
+        "Separates observation validity, justification validity, and action admissibility.",
+        "Uses provenance and transitive dependency closure to find which beliefs became unsafe.",
+        "Supports targeted re-verification instead of full memory reset.",
+        "Focuses on long-running coding agents where stale assumptions create compounding failures."
+      ]
+    },
+    {
+      "slug": "can-humans-compete-with-artificial-intelligence",
+      "title": "Can Humans Compete with Artificial Intelligence?",
+      "description": "A research essay on task automation, displacement, complementarity, and how work changes when software agents absorb more of the execution layer.",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7202438",
+      "repo_url": "https://github.com/abdulwasea89/research_papers",
+      "year": "2026",
+      "tag": "AI & society",
+      "state": "Paper",
+      "abstract": "The question is not whether artificial intelligence will replace all human labor, but which classes of tasks are becoming software-shaped and how that changes the economics of work. This paper examines displacement pressure, productivity gains, and the continuing role of human judgment.\n\nIt argues that the most important distinction is not between humans and machines but between work that can be decomposed into repeatable procedures and work that remains socially, strategically, or ethically negotiated.",
+      "highlights": [
+        "Distinguishes automation of tasks from elimination of whole jobs.",
+        "Examines complementarity between human oversight and machine execution.",
+        "Frames AI as a force multiplier that changes labor composition and bargaining power.",
+        "Emphasizes the uneven distribution of gains across industries and roles."
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Zhilo Labs",
+      "role": "Founder & Software Engineer",
+      "date": "2026 — Present",
+      "description": "Building AI-native products, internal tools, developer infrastructure, and business automation systems.",
+      "url": "https://zhilo.vercel.app/"
+    },
+    {
+      "company": "Ujjan",
+      "role": "Software Engineer · Part-time",
+      "date": "Jan — May 2026",
+      "description": "Contributed to web and mobile development work using Next.js and adjacent tooling.",
+      "url": "https://abdulwasay.ujjan.com/"
+    },
+    {
+      "company": "Independent development",
+      "role": "Web, mobile & AI systems",
+      "date": "2023 — Present",
+      "description": "Built full-stack applications, workflow automations, and AI agent experiments across web, backend, and product systems."
+    }
+  ]
+}

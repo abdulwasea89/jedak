@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://abdulwasea89.github.io/jedak/sitemap.xml

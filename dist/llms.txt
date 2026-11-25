@@ -1,0 +1,15 @@
+# Abdul Wasea
+
+> Personal website of a software engineer and independent researcher.
+
+## Main pages
+- [Projects](https://abdulwasea89.github.io/jedak/projects.html)
+- [Research](https://abdulwasea89.github.io/jedak/research.html)
+- [Blogs](https://abdulwasea89.github.io/jedak/blogs.html)
+- [Essays](https://abdulwasea89.github.io/jedak/essays.html)
+
+## Research
+- [Causally Sound Memory Invalidation for Long-Horizon Software Engineering Agents](https://abdulwasea89.github.io/jedak/research/causally-sound-memory-invalidation.html): A framework for detecting and invalidating stale assumptions inside persistent agent memory using causal structure, provenance, and targeted verification.
+- [Can Humans Compete with Artificial Intelligence?](https://abdulwasea89.github.io/jedak/research/can-humans-compete-with-artificial-intelligence.html): A research essay on task automation, displacement, complementarity, and how work changes when software agents absorb more of the execution layer.
+
+## Reviewed writing
